@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Crud operations</title>
+        <style>
+            body{
+                background-color:black;
+            }
+            .main{
+                width:100%;
+            }
+            .content{
+             float:left;
+             
+            }
+            div
+            {
+                float: right;
+                background-color: rgb(61, 63, 65);
+                width: 85%;
+                height: 600px;
+                color: white;
+                margin-right: 100px;
+                margin-top: 40px;
+                
+            }
+            .form{
+              margin-left: 350px;
+            }
+            input{
+                margin-top: 20px;
+                margin-left: 40px;
+                background-color: rgb(241, 244, 241);
+                width: 350px;
+                height: 40px;
+                border: none;
+            }
+            input:hover{
+                outline: none;
+                height: 42px;
+            }
+            label
+            {
+                margin-left: 40px;
+                color: white;
+            }
+            .submit{
+                margin-top: 20px;
+                margin-left: 220px;
+                background-color: green;
+                color: white;
+                width: 250px;
+                height: 40px;
+                border: none;
+            }
+            .submit:hover{
+                background-attachment: rgb(0, 53, 0);
+                outline: none;
+            }
+        </style>
+    </head>
+    <body>
+           <div class="div" >
+                <form action="/addname" method="POST" class="form"><br>
+                <font size="10px" color="green">W</font><font size="8px">elcome to student data page</font> <font size="10px"color="green"> !...</font><br>
+                <label>NAME:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="name" placeholder="Enter your name" required/><br><br>
+                <label> ROLLNO:</label>&nbsp;&nbsp;&nbsp;
+                <input type="number" name="rollno" placeholder="Enter your Roll number" required/><br><br>
+                <label> DEPART:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="dep" placeholder="Enter your Department" required/><br><br>
+                <label> YEAR:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="number" name="year" placeholder="Year..." required/><br><br>
+                <label> SEMESTER:</label>
+                <input type="number" name="sem" placeholder="Semester..." required/><br><br><br>
+                <input type="submit" class="submit" value="submit"/>
+                
+              </form>
+
+        </div>
+    </body>
+</html>
+    
